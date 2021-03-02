@@ -74,7 +74,7 @@ public class PracticeFormTest {
         String yearOfBirth = String.valueOf(date.get(Calendar.YEAR));
         List<String> subjects = randomValuesFromVariant("Physics", "History", "Economics");
         List<String> hobbies = randomValuesFromVariant("Sports", "Reading", "Music");
-        String picture = "photo.jpg";
+        String picture = "photo.png";
         String currentAddress = faker.address().streetAddress();
         String state = "Rajasthan";
         String city = randomValueFromVariant("Jaipur", "Jaiselmer");
